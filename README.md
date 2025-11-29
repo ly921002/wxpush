@@ -61,9 +61,8 @@ json
 **示例请求:**
 
 bash
-curl -X POST https://your-worker.your-subdomain.workers.dev/send\
--H "Content-Type: application/json" \
--d '{"key": "这是一条测试消息"}'
+
+curl -X POST https://your-worker.your-subdomain.workers.dev/send -H "Content-Type: application/json" -d '{"key": "这是一条测试消息"}'
 
 ## 消息模板配置
 
